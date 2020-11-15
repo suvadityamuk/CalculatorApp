@@ -72,16 +72,6 @@ public class MainActivity extends AppCompatActivity {
         double quot = p / q;
         ((EditText)findViewById(R.id.res)).setText(String.valueOf(quot));
     }
-    /*public void activationjsoup(View v) throws IOException {
-        TextView souptext = findViewById(R.id.textforsoup);
-        Button b = (Button) findViewById(R.id.activate);
-        URL myurl = new URL("https://jsoup.org/apidocs/org/jsoup/nodes/class-use/Document.html");
-        Document content = Jsoup.parse(myurl, 5000);
-        //Document res = Jsoup.parse(String.valueOf(content), "UTF-8");
-        String words = content.text();
-        souptext.setText(words);
-
-
-    }*/
+   
 }
 
